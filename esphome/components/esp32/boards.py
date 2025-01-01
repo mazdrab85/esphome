@@ -1332,6 +1332,7 @@ ESP32_BOARD_PINS = {
         "D12": 18,
         "D13": 2,
     },
+    "xiao_esp32c6": {}, 
     "xinabox_cw02": {"LED": 27},
     "upesy_wroom": {"LED": 2},
     "upesy_wrover": {"LED": 2},
@@ -2294,6 +2295,10 @@ BOARDS = {
     },
     "wt32-eth01": {
         "name": "Wireless-Tag WT32-ETH01 Ethernet Module",
+        "variant": VARIANT_ESP32,
+    },
+    "xiao_esp32c6": {
+        "name": "XIAO ESP32C6",
         "variant": VARIANT_ESP32,
     },
     "xinabox_cw02": {
